@@ -8,6 +8,6 @@ RUN wget --quiet http://homepages.dcc.ufmg.br/~lcerf/prototypes/d-peeler-2.12.ta
 
 WORKDIR /d-peeler-workdir
 
-COPY build/entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 COPY datapeeler.sh /datapeeler.sh
 ENTRYPOINT ["/entrypoint.sh"]
