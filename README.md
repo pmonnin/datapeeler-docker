@@ -18,6 +18,3 @@ Tests can be executed with
 make test
 ```
 
-## Update info
-
-The Dockerfile should *always* inherit from Ubuntu 14.04 otherwise problems at the compilation of DataPeeler arise.
